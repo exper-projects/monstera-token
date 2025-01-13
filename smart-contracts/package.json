@@ -10,7 +10,7 @@
     "deploy-token": "npx hardhat ignition deploy ./ignition/modules/Monstera.js",
     "deploy-manager": "npx hardhat ignition deploy ./ignition/modules/MonsteraManager.js",
     "deploy": "npm run deploy-token && npm run deploy-manager",
-    "verify": "npx hardhat verify $1"
+    "verify": "npx hardhat verify"
   },
   "keywords": [],
   "author": "",
